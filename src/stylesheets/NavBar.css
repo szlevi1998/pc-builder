@@ -1,0 +1,14 @@
+body{
+    font: 2.5vh bold;
+    text-align: left;
+}
+.navs{
+    max-width: available;
+    margin: 0;
+}
+.container{
+    margin-left: 0;
+}
+.image-for-navbar{
+    margin-right: 2.5vh;
+}

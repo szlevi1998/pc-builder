@@ -1,0 +1,56 @@
+body {
+    background-image: url("background.jpg");
+    font-family: serif;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+.form-container {
+    min-width: 300px;
+    max-width: 500px;
+    max-height: 650px;
+    background-color: lightblue;
+    opacity: 0.95;
+    display: block;
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+    margin: 15vh auto auto;
+    border: black solid 2vh;
+    border-radius: 10vh;
+    text-transform: uppercase;
+}
+
+.form-container button {
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+.form-h1 {
+    padding-bottom: 2vh;
+    letter-spacing: 2px;
+}
+
+.container-pwdcontrol, .container-usercontrol {
+    position: relative;
+    left: 18%;
+    max-width: 30vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 15px;
+}
+.label-lg,.label-pwd{
+    font: 2vh bold;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.login,.register{
+    display: block;
+    position: relative;
+    left: 18%;
+    min-width: 30vh;
+    min-height: 8vh;
+    border-radius: 5vh;
+
+}

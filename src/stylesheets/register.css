@@ -1,0 +1,36 @@
+body{
+    font: 1.5vh bold;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.register-form{
+    background-color: lightblue;
+    text-align: left;
+    opacity: 0.95;
+    max-width: 550px;
+    padding: 5vh 5vh;
+    margin: 15vh auto auto;
+    border: black solid 2vh;
+    border-radius: 10vh;
+}
+.register-h2{
+    text-align: center;
+    padding: initial;
+    margin-bottom: 2.5vh;
+}
+
+.register-controls{
+    min-width: 25vh;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+    border-radius: 15px;
+}
+.register-button{
+    display: inline;
+    position: relative;
+    left: 7%;
+    margin-top: 3vh;
+    min-width: 40vh;
+    border-radius: 5vh;
+}
