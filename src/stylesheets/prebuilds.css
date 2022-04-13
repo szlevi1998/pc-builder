@@ -6,9 +6,12 @@ body{
     font-size: 3vh;
     text-align: center;
     padding: 0.5vh;
-
+    letter-spacing: normal;
 }
 .row{
+    text-transform: none;
+    letter-spacing: normal;
+    min-width: 500px;
 }
 .intel-section{
     text-transform: none;
@@ -19,6 +22,7 @@ body{
     color: black;
     background-color: white;
     border-bottom: 3px solid black;
+    letter-spacing: normal;
 }
 
 .amd-section{
@@ -31,8 +35,31 @@ body{
     color: black;
     background-color: white;
     border-bottom: 3px solid black;
+    letter-spacing: normal;
+
+}
+.box{
+    text-transform: none;
+}
+.left-box{
+    border: 1px solid black;
+    min-height: 500px;
+}
+.left-box p{
+    letter-spacing: normal;
+}
+.left-box h4{
+    position: relative;
+    padding-top: 25vh;
+}
+.middle-box{
+    border: 1px solid black;
+    min-height: 500px;
+
 }
 
-.left-element{
-    margin-bottom: 5vh;
+.right-box{
+    border: 1px solid black;
+    min-height: 500px;
+
 }
