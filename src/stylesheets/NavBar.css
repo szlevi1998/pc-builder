@@ -1,6 +1,5 @@
 body{
-    font: 2.5vh bold;
-    text-align: left;
+    font: 3vh bold;
 }
 .navs{
     max-width: available;
@@ -11,4 +10,5 @@ body{
 }
 .image-for-navbar{
     margin-right: 2.5vh;
+    cursor: pointer;
 }

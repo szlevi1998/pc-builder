@@ -30,8 +30,10 @@ const NavBar = () => {
                     <Navbar.Collapse>
                         <Nav className="me-auto">
                             <NavDropdown title="Menü" id="collasible-nav-dropdown">
+                                <NavDropdown.Item title="/guidance">Útmútató</NavDropdown.Item>
                                 <NavDropdown.Item href="/prebuilds">Alap konfigok</NavDropdown.Item>
-                                <NavDropdown.Item href="/savedbuilds">Saját konfig</NavDropdown.Item>
+                                <NavDropdown.Item href="/pcbuilder">Konfig építő</NavDropdown.Item>
+                                <NavDropdown.Item href="/savedbuilds">Konfigom</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

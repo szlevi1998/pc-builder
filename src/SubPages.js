@@ -18,7 +18,6 @@ export default class SubPages extends React.Component {
                     <Route path="/register" element={<Register/>}/>
 
                     <React.Fragment>
-
                        <Route path="/home" element={<HomePage/>}/>
                         <Route path='/prebuilds' element={<PreBuilds/>}/>
                         <Route path='/savedbuilds' element={savedBuilds}/>
