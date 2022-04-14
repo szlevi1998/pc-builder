@@ -1,5 +1,5 @@
 body{
-    background-image: none;
+
     font-size: 2vh;
 }
 .title-h1{
@@ -9,57 +9,71 @@ body{
     letter-spacing: normal;
 }
 .row{
+    background: snow;
     text-transform: none;
     letter-spacing: normal;
     min-width: 500px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    border: lightblue solid 15px;
+    border-radius: 5vh;
 }
 .intel-section{
+    max-width: fit-content;
+    text-transform: none;
+    font-size: 3vh;
+    text-align: left;
+    margin-left: 5vh;
+    margin-bottom: 1vh;
+    color: black;
+    background-color: lightblue;
+    border-bottom: 3px solid black;
+    letter-spacing: normal;
+}
+
+.amd-section {
     text-transform: none;
     font-size: 3vh;
     text-align: left;
     padding-left: 5vh;
+    margin-top: 20vh;
     margin-bottom: 2vh;
     color: black;
     background-color: white;
     border-bottom: 3px solid black;
     letter-spacing: normal;
-}
-
-.amd-section{
-    text-transform: none;
-    font-size: 3vh;
-    text-align: left;
-    padding-left: 5vh;
-    margin-top: 30vh;
-    margin-bottom: 2vh;
-    color: black;
-    background-color: white;
-    border-bottom: 3px solid black;
-    letter-spacing: normal;
-
-}
-.box{
-    text-transform: none;
 }
 .left-box{
     border: 1px solid black;
+    padding: 1vh;
     min-height: 500px;
+    max-width: 400px;
+    margin: 2vh
 }
 .left-box p{
     letter-spacing: normal;
 }
+
+.entry-intel img{
+    max-height: 128px;
+    max-width: 128px;
+}
+
 .left-box h4{
     position: relative;
-    padding-top: 25vh;
+    padding-top: 10vh;
 }
 .middle-box{
+    padding: 1vh;
+    margin: 2vh;
     border: 1px solid black;
     min-height: 500px;
-
+    max-width: 400px;
 }
 
 .right-box{
     border: 1px solid black;
     min-height: 500px;
-
+    max-width: 400px;
+    margin: 2vh
 }
