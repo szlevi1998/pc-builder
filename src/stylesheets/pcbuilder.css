@@ -1,0 +1,8 @@
+.table-content{
+    background-color: snow;
+    border: lightblue solid 1vh;
+    border-radius: 2vh;
+    min-height: 70vh;
+    text-transform: none;
+    margin: 1vh;
+}

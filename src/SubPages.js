@@ -6,6 +6,7 @@ import Register from "./components/Register";
 import HomePage from "./components/HomePage";
 import PreBuilds from "./components/PreBuilds";
 import SavedBuildPage from "./components/SavedBuilds";
+import PcBuilder from "./components/PcBuilder";
 
 export default class SubPages extends React.Component {
     render() {
@@ -16,6 +17,7 @@ export default class SubPages extends React.Component {
                     <Route path="/register" element={<Register/>}/>
                     <Route path="/home" element={<HomePage/>}/>
                     <Route path='/prebuilds' element={<PreBuilds/>}/>
+                    <Route path='/pcbuilder' element={<PcBuilder/>}/>
                     <Route path='/savedbuilds' element={<SavedBuildPage/>}/>
                 </Routes>
             </Router>
