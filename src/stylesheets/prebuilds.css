@@ -1,10 +1,10 @@
 body {
-
     font-size: 2vh;
+    background-size: cover;
 }
 
 .title-h1 {
-    font-size: 5vh;
+    font-size: 4vh;
     position: relative;
     left: 40%;
     padding: 0.5vh;
@@ -13,6 +13,7 @@ body {
     background-color: #eeeeee;
     border-radius: 3vh;
     margin-bottom: 3vh;
+    margin-top: 1vh;
 }
 
 .row {
@@ -27,11 +28,11 @@ body {
 .intel-section {
     max-width: fit-content;
     text-transform: none;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: left;
     margin-left: 5vh;
     color: black;
-    background-color: lightblue;
+    background-color: #eeeeee;
     border-radius: 1vh;
     letter-spacing: normal;
 }
@@ -39,11 +40,11 @@ body {
 .amd-section {
     max-width: fit-content;
     text-transform: none;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: left;
     margin-left: 5vh;
     color: black;
-    background-color: lightblue;
+    background-color: #eeeeee;
     border-radius: 1vh;
     letter-spacing: normal;
 }

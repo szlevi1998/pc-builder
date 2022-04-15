@@ -41,7 +41,6 @@ function OpenPreBuilds() {
                         <div className="middle-box">
                             Alsóközép szint
                             <p>(250000 Ft alatt)</p>
-                            <p></p>
                             <p>GIGABYTE H610M S2H</p>
                             <p>Intel Core i3-12300</p>
                             <p>ARCTIC Freezer i35 CO</p>
