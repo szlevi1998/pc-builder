@@ -1,9 +1,17 @@
 import React from "react";
 import "../stylesheets/register.css";
 import {Form} from "react-bootstrap";
+import {useNavigate} from "react-router-dom";
 
 function RegisterPage() {
+
+    const navigation = useNavigate();
+    const backToLogin = ()=>{
+        navigation("/");
+    }
+
     return (
+
         <div className="register-form">
             <h2 className="register-h2">Regisztráció</h2>
             <Form>
@@ -46,6 +54,7 @@ function RegisterPage() {
                 </Form.Group>
             </Form>
             <button className="btn btn-outline-primary register-button">Regisztráció</button>
+            <button onClick={backToLogin} className="btn btn-outline-primary register-button"> Vissza a bejelentkezési oldalra</button>
         </div>
     )
 }

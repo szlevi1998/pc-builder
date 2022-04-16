@@ -1,22 +1,21 @@
 body{
     font: 1.5vh bold;
     font-family: serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 .register-form{
+    position: relative;
+    left: 35%;
     background-color: lightblue;
     text-align: left;
     opacity: 0.95;
     max-width: 550px;
     padding: 5vh 5vh;
-    margin: 15vh auto auto;
     border: black solid 2vh;
     border-radius: 10vh;
 }
 .register-h2{
     text-align: center;
-    padding: initial;
+    font-weight: 700;
     margin-bottom: 2.5vh;
 }
 

@@ -7,7 +7,7 @@ function PcBuilderPage() {
     return (
         <div>
             <NavBar/>
-            <h2>Gép Összerakó</h2>
+            <h2 className="builder-h2">Gép Összerakó</h2>
             <section className="table-content">
                 <Table responsive="md">
                     <thead>
@@ -20,7 +20,7 @@ function PcBuilderPage() {
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Alaplap</td>
+                        <td className="column">Alaplap</td>
                         <td><img src="https://mpng.subpng.com/20180329/khq/kisspng-computer-icons-icon-design-clip-art-plus-5abccc211d83e3.0307650615223224651209.jpg"
                                  alt=""
                                  height="32px"
@@ -32,51 +32,51 @@ function PcBuilderPage() {
                         <td>Table cell</td>
                     </tr>
                     <tr>
-                        <td>Processzor</td>
+                        <td className="column">Processzor</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                     </tr>
                     <tr>
-                        <td>Processzor hűtő</td>
+                        <td className="column">Processzor hűtő</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                     </tr>
                     <tr>
-                        <td>Memória</td>
+                        <td className="column">Memória</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                     </tr>
                     <tr>
-                        <td>Videókártya</td>
+                        <td className="column">Videókártya</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                     </tr>
                     <tr>
-                        <td>Tároló</td>
+                        <td className="column">Tároló</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                     </tr>
                     <tr>
-                        <td>Gépház</td>
+                        <td className="column">Gépház</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                     </tr>
                     <tr>
-                        <td>Tápegység</td>
+                        <td className="column">Tápegység</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                         <td>Table cell</td>
                     </tr>
                     </tbody>
                 </Table>
-                <p>Összesített ár: </p>
-                <button className="btn-outline-secondary">Save</button>
+                <p className="price">Összesített ár: </p>
+                <button className="btn-outline-success save">Mentés</button>
             </section>
 
         </div>

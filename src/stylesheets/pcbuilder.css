@@ -1,8 +1,50 @@
+.builder-h2{
+    font-size: 3.5vh;
+    position: relative;
+    left: 40%;
+    padding: 0.5vh;
+    letter-spacing: normal;
+    max-width: fit-content;
+    background-color: #eeeeee;
+    margin: 15vh auto auto;
+    border-radius: 3vh;
+    margin-bottom: 3vh;
+}
 .table-content{
     background-color: snow;
     border: lightblue solid 1vh;
     border-radius: 2vh;
-    min-height: 70vh;
+    min-height: 80vh;
+    min-width: 100vh;
     text-transform: none;
-    margin: 1vh;
+    margin: 4vh;
+    padding: 2vh;
+}
+.table-content thead{
+    border-bottom: 0.3vh solid #eeeeee;
+    border-right: 0.3vh solid #eeeeee;
+    letter-spacing: normal;
+}
+
+.table-content td {
+    margin: 2vh;
+    letter-spacing: normal;
+    padding: 3vh;
+    height: 8vh;
+}
+.column{
+    text-align: left;
+}
+.price{
+    padding-top: 5vh;
+    font-size: 25px;
+    letter-spacing: normal;
+    font-weight: 700;
+}
+.save{
+    min-width: 15vh;
+    min-height: 5vh;
+    position: relative;
+    left: 41%;
+    border-radius: 5vh;
 }

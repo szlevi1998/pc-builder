@@ -3,9 +3,14 @@ import {useForm} from "react-hook-form";
 import {Form} from "react-bootstrap";
 
 import '../stylesheets/login.css';
+import {Link, useNavigate} from "react-router-dom";
 
 function LoginPage() {
     //const {register, handleSubmit} = useForm({mode: 'onChange'});
+    const navigate = useNavigate();
+    const navigateToRegister = ()=>{
+        navigate('/register');
+    }
 
     return (
 
@@ -31,7 +36,7 @@ function LoginPage() {
 
                 </Form.Group>
                 <button className="btn btn-outline-dark login" type="submit">Bejelentkezés</button>
-                <button href={"/register"} className="btn btn-outline-dark register">Regisztráció</button>
+                <button onClick={navigateToRegister}  className="btn btn-outline-dark register">Regisztráció</button>
             </Form>
         </div>
     );
