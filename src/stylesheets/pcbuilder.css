@@ -1,14 +1,15 @@
 .builder-h2{
-    font-size: 3.5vh;
     position: relative;
     left: 40%;
-    padding: 0.5vh;
+    border-radius: 3vh;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+    padding: 1vh;
+    font-size: 3.5vh;
     letter-spacing: normal;
     max-width: fit-content;
     background-color: #eeeeee;
-    margin: 15vh auto auto;
-    border-radius: 3vh;
-    margin-bottom: 3vh;
+
 }
 .table-content{
     background-color: snow;
@@ -19,11 +20,17 @@
     text-transform: none;
     margin: 4vh;
     padding: 2vh;
+    font-weight: 700;
 }
 .table-content thead{
+    font-size: 2.5vh;
     border-bottom: 0.3vh solid #eeeeee;
     border-right: 0.3vh solid #eeeeee;
     letter-spacing: normal;
+}
+.component{
+    text-align: left;
+    width: 20vh;
 }
 
 .table-content td {
@@ -31,6 +38,7 @@
     letter-spacing: normal;
     padding: 3vh;
     height: 8vh;
+    border: 2px solid black;
 }
 .column{
     text-align: left;
@@ -40,6 +48,10 @@
     font-size: 25px;
     letter-spacing: normal;
     font-weight: 700;
+}
+.add-button{
+    border-radius: 2vh;
+    font-size: 2vh;
 }
 .save{
     min-width: 15vh;
