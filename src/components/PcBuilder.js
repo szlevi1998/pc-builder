@@ -2,8 +2,44 @@ import React from "react";
 import NavBar from "../NavBar";
 import {Table} from "react-bootstrap";
 import "../stylesheets/pcbuilder.css";
+import {useNavigate} from "react-router-dom";
 
 function PcBuilderPage() {
+
+    const navigation = useNavigate();
+
+
+    const navigateToMotherboards = ()=>{
+        navigation("/pcbuilder/motherboards");
+    }
+
+    const navigateToProcessors = ()=>{
+        navigation("/pcbuilder/processors");
+    }
+
+    const navigateToProcessorCoolers = ()=>{
+        navigation("/pcbuilder/processorcoolers");
+    }
+
+    const navigateToMemories = ()=>{
+        navigation("/pcbuilder/memories");
+    }
+
+    const navigateToVideoCards = ()=>{
+        navigation("/pcbuilder/videocards");
+    }
+
+    const navigateToStorages = ()=>{
+        navigation("/pcbuilder/storages");
+    }
+
+    const navigateToCases = ()=>{
+        navigation("/pcbuilder/cases");
+    }
+    const navigateToPSUs = ()=>{
+        navigation("/pcbuilder/powersupplies");
+    }
+
     return (
         <div>
             <NavBar/>
@@ -23,7 +59,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Alaplap</td>
                         <td><div>
-                            <a className="btn btn-primary add-button">+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToMotherboards}>+ Hozzáadás</a>
                         </div>
                         </td>
                         <td></td>
@@ -32,7 +68,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Processzor</td>
                         <td><div>
-                            <a className="btn btn-primary add-button">+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToProcessors}>+ Hozzáadás</a>
                         </div></td>
                         <td></td>
                         <td></td>
@@ -40,7 +76,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Processzor hűtő</td>
                         <td><div>
-                            <a className="btn btn-primary add-button">+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToProcessorCoolers}>+ Hozzáadás</a>
                         </div></td>
                         <td></td>
                         <td></td>
@@ -48,7 +84,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Memória</td>
                         <td><div>
-                            <a className="btn btn-primary add-button">+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToMemories}>+ Hozzáadás</a>
                         </div></td>
                         <td></td>
                         <td></td>
@@ -56,7 +92,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Videókártya</td>
                         <td><div>
-                            <a className="btn btn-primary add-button">+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToVideoCards}>+ Hozzáadás</a>
                         </div></td>
                         <td></td>
                         <td></td>
@@ -64,7 +100,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Tároló</td>
                         <td><div>
-                            <a className="btn btn-primary add-button">+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToStorages}>+ Hozzáadás</a>
                         </div></td>
                         <td></td>
                         <td></td>
@@ -72,7 +108,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Gépház</td>
                         <td><div>
-                            <a className="btn btn-primary add-button">+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToCases}>+ Hozzáadás</a>
                         </div></td>
                         <td></td>
                         <td></td>
@@ -80,7 +116,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Tápegység</td>
                         <td><div>
-                            <a className="btn btn-primary add-button">+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToPSUs}>+ Hozzáadás</a>
                         </div></td>
                         <td></td>
                         <td></td>
