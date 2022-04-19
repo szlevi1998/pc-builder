@@ -23,6 +23,7 @@ body {
     margin: 2vh;
     border: lightblue solid 15px;
     border-radius: 5vh;
+    text-align: center;
 }
 
 .intel-section {

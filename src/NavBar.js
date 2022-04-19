@@ -17,7 +17,6 @@ const NavBar = () => {
             <Navbar collapseOnSelect expand="sm"
                     bg="dark"
                     variant="dark">
-                <Container>
                     <Navbar.Brand>
                         <img src={process.env.PUBLIC_URL + "/pc.png"} alt="logo"
                              width="64px"
@@ -37,8 +36,6 @@ const NavBar = () => {
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
-                </Container>
-
             </Navbar>
         </div>
 
