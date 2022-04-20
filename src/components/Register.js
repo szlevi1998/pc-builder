@@ -116,7 +116,7 @@ function RegisterPage() {
                     {errors.passwordConfirm && errors.passwordConfirm.type === 'required' && <span className="register-span">Ez a mező nem lehet üres!</span>}
                     {errors.passwordConfirm && errors.passwordConfirm.type === 'maxLength' && <span className="register-span">A maximális karakterek száma  20!</span> }
                     {errors.passwordConfirm && errors.passwordConfirm.type === 'minLength' && <span className="register-span">A jelszó hossza legalább 5 karakter!</span> }
-                    {errors.passwordConfirm && errors.passwordConfirm.type === 'pattern' && <span className="register-span">A jelszó hossza legalább 5 karakter!</span> }
+                    {errors.passwordConfirm && errors.passwordConfirm.type === 'pattern' && <span className="register-span">Nem megengedett karakterek találhatóak a jelszóban!</span> }
                 </Form.Group>
             </Form>
             <button className='btn btn-outline-primary register-button' type="submit">Regisztráció</button>

@@ -121,6 +121,14 @@ function PcBuilderPage() {
                         <td></td>
                         <td></td>
                     </tr>
+                    <tr>
+                        <td className="column">Monitor</td>
+                        <td><div>
+                            <a className="btn btn-primary add-button" onClick={navigateToPSUs}>+ Hozzáadás</a>
+                        </div></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
                     </tbody>
                 </Table>
                 <p className="price">Összesített ár: </p>

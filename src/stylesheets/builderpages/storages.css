@@ -1,0 +1,101 @@
+.storage-h1{
+    background-color: white;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+}
+.storage-filters{
+    background-color: white;
+    max-width: fit-content;
+    border: 1vh solid lightblue;
+    margin-left: 1vh;
+    display: inline-block;
+    font-size: 1.8vh;
+}
+.storage-search{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-search h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.storage-price{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-price h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.storage-manufacturer{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-manufacturer h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.storage-storagetype{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-storagetype h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.storage-socket{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-socket h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.storage-size{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-size h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+#flexCheckDefault{
+    margin-right: 1vh;
+}
+
+.storage-list{
+    display: inline-table;
+    width: 75%;
+    table-layout: fixed;
+    margin-left: 1vh;
+    border: 5px solid lightblue;
+    background-color: white;
+}
+
+
+.storage-list tr{
+    border-bottom: 1px solid #eeeeee;
+    height: 8vh;
+}
+.storage-list th{
+    padding: 2vh;
+    text-align: center;
+    border: 1px solid #eeeeee;
+}

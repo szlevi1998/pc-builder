@@ -1,5 +1,5 @@
 import React from "react";
-import "../../stylesheets/processorCoolers.css"
+import "../../stylesheets/builderpages/processorCoolers.css"
 import {useNavigate} from "react-router-dom";
 import {Button, Table} from "react-bootstrap";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import {useNavigate} from "react-router-dom";
-import "../../stylesheets/processors.css"
+import "../../stylesheets/builderpages/processors.css"
 import {Button, Table} from "react-bootstrap";
 
 function ProcessorListPage() {
@@ -15,7 +15,7 @@ function ProcessorListPage() {
             <h1>Válassz processzort!</h1>
             </section>
         <div className="container filters">
-            <section className="form-check filter-section-clock">
+            <section className="form-check filter-section-price">
                 <div >
                     <h5>Ár</h5>
                     <div>
@@ -55,7 +55,7 @@ function ProcessorListPage() {
                     </div>
                 </div>
             </section>
-                <section className="form-check filter-section">
+                <section className="form-check filter-section-brand">
                     <div className="fields">
                         <h5>Márka</h5>
                         <input className="form-check-input"

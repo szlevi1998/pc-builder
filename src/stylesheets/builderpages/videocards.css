@@ -1,13 +1,13 @@
-.coolers-h1{
+.videocards-h1{
     background-color: white;
     max-width: fit-content;
     position: relative;
     left: 50%;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    border-radius: 2vh;
+    border-radius: 1vh;
 }
-.coolers-filters{
+.videocards-filters{
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,52 +15,72 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.coolers-search{
+.videocards-search{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.coolers-search h5{
-    font-size: 2vh;
-    font-weight: 700;
-        text-align: right;
-}
-.coolers-price{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.coolers-price h5{
+.videocards-search h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.coolers-manufacturer{
+.videocards-price{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.coolers-manufacturer h5{
+.videocards-price h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.coolers-coolingtype{
+.videocards-manufacturer{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.coolers-coolingtype h5{
+.videocards-manufacturer h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.coolers-rpm{
+.videocards-memorytype{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.coolers-rpm h5{
+.videocards-memorytype h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.videocards-memorysize{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.videocards-memorysize h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.videocards-type{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.videocards-type h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.videocards-chipset{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.videocards-chipset h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
@@ -68,10 +88,22 @@
 #flexCheckDefault{
     margin-right: 1vh;
 }
-.coolers-list{
+.videocards-list{
     display: inline-table;
-    width: fit-content;
+    width: 65%;
+    table-layout: fixed;
+    margin-left: 1vh;
+    border: 5px solid lightblue;
     background-color: white;
-    margin-left: 2vh;
-    border: 1vh solid lightblue;
+}
+
+
+.videocards-list tr{
+    border-bottom: 1px solid #eeeeee;
+    height: 8vh;
+}
+.videocards-list th{
+    padding: 2vh;
+    text-align: center;
+    border: 1px solid #eeeeee;
 }

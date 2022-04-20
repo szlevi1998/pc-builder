@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../stylesheets/motherboards.css';
+import '../../stylesheets/builderpages/motherboards.css';
 import {useNavigate} from 'react-router-dom';
 import {Button, Table} from 'react-bootstrap';
 
@@ -12,7 +12,6 @@ function MotherBoardListPage() {
 
     return (<div>
             <h1 className="motherboards-h1">Válassz alaplapot!</h1>
-            <section className='motherboards'>
                 <div className="container-motherboards">
 
                     <section className="form-check filter-section-search">
@@ -22,26 +21,29 @@ function MotherBoardListPage() {
                         </div>
                         </section>
                     <section className="form-check filter-section-price">
+                        <div>
                         <h5>Ár</h5>
-                            <div>
+
                                 <input className="form-check-input"
                                        type="checkbox"
                                        id="flexCheckDefault"
                                 />
                                 <label className="form-check-label">50000 FT alatt</label>
-
+                        </div>
                             <div>
                                 <input className="form-check-input"
                                        type="checkbox"
                                        id="flexCheckDefault"
                                 />
                                 <label className="form-check-label">50000-75000 FT</label>
+                            </div>
                                 <div>
                                     <input className="form-check-input"
                                            type="checkbox"
                                            id="flexCheckDefault"
                                     />
                                     <label className="form-check-label">75000-110000 FT</label>
+                                </div>
                                     <div>
                                         <input className="form-check-input"
                                                type="checkbox"
@@ -56,11 +58,7 @@ function MotherBoardListPage() {
                                         />
                                         <label className="form-check-label">150000 FT fölött</label>
                                     </div>
-                                </div>
-                            </div>
-                            </div>
                     </section>
-
 
                     <section className="form-check filter-section-manufacturer">
                         <div>
@@ -323,7 +321,6 @@ function MotherBoardListPage() {
                     </tr>
                     </tbody>
                 </Table>
-            </section>
             <Button className="btn-success" onClick={backToPcBuilder}>Választ</Button>
         </div>
 

@@ -1,17 +1,19 @@
 import React from "react";
+import "../../stylesheets/builderpages/memories.css"
 import {useNavigate} from "react-router-dom";
+import {Button, Table} from "react-bootstrap";
 
-function MemoryListPage (){
-    return(<div>
-            <h1>Válassz memóriát!</h1>
-            <div className="coolers-filters">
-                <section className="coolers-search">
+function MemoryListPage() {
+    return (<div>
+            <h1 className="memories-h1">Válassz memóriát!</h1>
+            <div className="memories-filters">
+                <section className="memories-search">
                     <div>
                         <h5>Keresés</h5>
                         <input type="search" className="form-control" placeholder="Keresés"/>
                     </div>
                 </section>
-                <section className="coolers-price">
+                <section className="memories-price">
                     <div>
                         <h5>Ár</h5>
                         <div>
@@ -52,7 +54,7 @@ function MemoryListPage (){
                         </div>
                     </div>
                 </section>
-                <section className="coolers-manufacturer">
+                <section className="memories-manufacturer">
                     <div>
                         <h5>Gyártó</h5>
                         <div>
@@ -123,7 +125,7 @@ function MemoryListPage (){
                     </div>
 
                 </section>
-                <section className="coolers-coolingtype">
+                <section className="memories-memorytype">
                     <div>
                         <h5>Memória típusa</h5>
                         <div>
@@ -144,7 +146,7 @@ function MemoryListPage (){
                     </div>
 
                 </section>
-                <section className="coolers-rpm">
+                <section className="memories-size">
                     <div>
                         <h5>Méret</h5>
                         <div>
@@ -181,7 +183,7 @@ function MemoryListPage (){
                     </div>
 
                 </section>
-                <section className="coolers-rpm">
+                <section className="memories-clock">
                     <div>
                         <h5>Órajel</h5>
                         <div>
@@ -210,7 +212,7 @@ function MemoryListPage (){
                     </div>
 
                 </section>
-                <section className="coolers-rpm">
+                <section className="memories-latency">
                     <div>
                         <h5>Késleltetés</h5>
                         <div>
@@ -260,7 +262,7 @@ function MemoryListPage (){
                     </div>
 
                 </section>
-                <section className="coolers-rpm">
+                <section className="memories-channel">
                     <div>
                         <h5>Channel</h5>
                         <div>
@@ -287,15 +289,49 @@ function MemoryListPage (){
                             <label className="form-check-label">Quad</label>
                         </div>
                     </div>
-
                 </section>
             </div>
-        </div>
+            <Table className="table-responsive-md memories-list">
+                <thead>
+                <tr>
+                    <th>Termék neve</th>
+                    <th>Gyártó</th>
+                    <th>Min.ár</th>
+                    <th>Átlag ár</th>
+                    <th>Memória típusa</th>
+                    <th>Méret</th>
+                    <th>Órajel</th>
+                    <th>Késleltetés</th>
+                    <th>Channel</th>
 
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </Table>
+            <Button className="btn-success">Választ</Button>
+        </div>
     )
 }
 
-export default class Memories extends React.Component{
+export default class Memories extends React.Component {
     render() {
         return <MemoryListPage/>
     }

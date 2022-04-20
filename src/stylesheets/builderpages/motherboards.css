@@ -10,29 +10,29 @@
 }
 .motherboards {
     position: relative;
-    left: 40%;
+    left: 1%;
 }
 
 .motherboards-table {
     display: inline-table;
     position: relative;
-    right: 35%;
-    width: 60%;
+    left: 10%;
+    width: 65%;
     table-layout: fixed;
+    margin-left: 1vh;
+    border: 5px solid lightblue;
     background-color: white;
-    border: 1vh solid lightblue;
 }
 
 .motherboards-table th {
-    border: 2px solid black;
-    font-size: 1.5vh;
     padding: 2vh;
+    text-align: center;
+    border: 1px solid #eeeeee;
 }
 
 .motherboards-table tr {
-    height: 70px;
-    text-align: center;
-    vertical-align: middle;
+    border-bottom: 1px solid #eeeeee;
+    height: 8vh;
 }
 
 .motherboards-table td {
@@ -42,10 +42,10 @@
 .container-motherboards {
     display: inline-block;
     width: fit-content;
+    position: relative;
+    left: 3%;
     background-color: white;
     border: 1vh solid lightblue;
-    position: relative;
-    right: 38%;
     padding-left: 1em;
     padding-right: 1em;
     font-size: 1.5vh;

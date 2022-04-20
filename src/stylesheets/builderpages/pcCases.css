@@ -1,0 +1,120 @@
+.pccases-h1{
+    background-color: white;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+}
+.pccases-filters{
+    background-color: white;
+    max-width: fit-content;
+    border: 1vh solid lightblue;
+    margin-left: 1vh;
+    display: inline-block;
+    font-size: 1.8vh;
+}
+.pccases-search{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pccases-search h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.pccases-price{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pccases-price h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.pccases-manufacturer{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pccases-manufacturer h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.pccases-color{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pccases-color h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.pccases-psu{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pccases-psu h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.pccases-weight{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pccases-weight h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.pccases-sizetype{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pccases-fans h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.pccases-fans{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pccases-sizetype h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+#flexCheckDefault{
+    margin-right: 1vh;
+}
+
+.pccases-list{
+    display: inline-table;
+    width: 75%;
+    table-layout: fixed;
+    margin-left: 1vh;
+    border: 5px solid lightblue;
+    background-color: white;
+}
+
+
+.pccases-list tr{
+    border-bottom: 1px solid #eeeeee;
+    height: 8vh;
+}
+.pccases-list th{
+    padding: 2vh;
+    text-align: center;
+    border: 1px solid #eeeeee;
+}
