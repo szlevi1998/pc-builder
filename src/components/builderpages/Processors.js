@@ -15,6 +15,46 @@ function ProcessorListPage() {
             <h1>Válassz processzort!</h1>
             </section>
         <div className="container filters">
+            <section className="form-check filter-section-clock">
+                <div >
+                    <h5>Ár</h5>
+                    <div>
+                        <input className="form-check-input"
+                               type="checkbox"
+                               id="flexCheckDefault"
+                        />
+                        <label className="form-check-label">50000 FT alatt</label>
+                    </div>
+                    <div>
+                        <input className="form-check-input"
+                               type="checkbox"
+                               id="flexCheckDefault"
+                        />
+                        <label className="form-check-label">50000-75000 FT</label>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">75000-110000 FT</label>
+                            <div>
+                                <input className="form-check-input"
+                                       type="checkbox"
+                                       id="flexCheckDefault"
+                                />
+                                <label className="form-check-label">110000-150000 FT</label>
+                            </div>
+                            <div>
+                                <input className="form-check-input"
+                                       type="checkbox"
+                                       id="flexCheckDefault"
+                                />
+                                <label className="form-check-label">150000 FT fölött</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
                 <section className="form-check filter-section">
                     <div className="fields">
                         <h5>Márka</h5>
@@ -226,7 +266,7 @@ function ProcessorListPage() {
                         </div>
                     </div>
                 </section>
-            </div>s
+            </div>
             <Table className="table-responsive-md processor-list">
                 <thead>
                 <tr>
@@ -268,8 +308,9 @@ function ProcessorListPage() {
 
                 </tr>
                 </tbody>
-                <Button className="btn-success select" onClick={backToPcBuilder}>Választ</Button>
             </Table>
+            <Button className="btn-success select" onClick={backToPcBuilder}>Választ</Button>
+
         </div>
     )
 }

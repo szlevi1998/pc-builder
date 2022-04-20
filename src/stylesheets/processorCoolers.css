@@ -1,0 +1,77 @@
+.coolers-h1{
+    background-color: white;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 2vh;
+}
+.coolers-filters{
+    background-color: white;
+    max-width: fit-content;
+    border: 1vh solid lightblue;
+    margin-left: 1vh;
+    display: inline-block;
+    font-size: 1.8vh;
+}
+.coolers-search{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.coolers-search h5{
+    font-size: 2vh;
+    font-weight: 700;
+        text-align: right;
+}
+.coolers-price{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.coolers-price h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.coolers-manufacturer{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.coolers-manufacturer h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.coolers-coolingtype{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.coolers-coolingtype h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.coolers-rpm{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.coolers-rpm h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+#flexCheckDefault{
+    margin-right: 1vh;
+}
+.coolers-list{
+    display: inline-table;
+    width: fit-content;
+    background-color: white;
+    margin-left: 2vh;
+    border: 1vh solid lightblue;
+}

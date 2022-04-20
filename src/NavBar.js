@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, Nav, NavDropdown, Container} from "react-bootstrap";
+import {Navbar, Nav, NavDropdown} from "react-bootstrap";
 import {useNavigate} from "react-router-dom";
 
 import "./stylesheets/NavBar.css"
@@ -42,30 +42,3 @@ const NavBar = () => {
     );
 }
 export default NavBar;
-/*
-
-const NavBar = () => {
-    return (
-        <div className={"content-navbar"}>
-            <Navbar bg={"dark"} variant={"dark"} sticky="top" expand="md" collapseOnSelect>
-                <Navbar.Brand>
-                    <img src={process.env.PUBLIC_URL + "/pc.png"}
-                         alt="logo"
-                         width="64px"
-                         height="64px"/>{' '}Logo
-                </Navbar.Brand>
-                <Navbar.Toggle/>
-                <Navbar.Collapse>
-                    <NavDropdown.Item>
-                        <NavDropdown title={"Menü"}>
-                            <NavDropdown.Item href={"/prebuilds"}>Alap konfigok</NavDropdown.Item>
-                            <NavDropdown.Item href={"/savedbuilds"}>Saját konfigom</NavDropdown.Item>
-                            <NavDropdown.Item href={"/login"}>Kijelentkezés</NavDropdown.Item></NavDropdown>
-                    </NavDropdown.Item>
-                </Navbar.Collapse>
-            </Navbar>
-        </div>
-    );
-}
-export default NavBar;
-*/
