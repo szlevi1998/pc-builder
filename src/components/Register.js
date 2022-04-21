@@ -10,7 +10,6 @@ function RegisterPage() {
     const backToLogin = () => {
         navigation('/');
     }
-    {/*onSubmit={handleSubmit()}*/}
     const {register,handleSubmit,getValues,formState:{errors}} = useForm({mode:'onChange'});
 
     return (
@@ -29,10 +28,13 @@ function RegisterPage() {
                                       {
                                           required: true,
                                           maxLength: 20,
-                                  })}
+                                          pattern: /^[A-ZÁÉÚŐÓÜÖÍ]+[a-záéúőóüöűí]*$/
+                                      })}
                     />
                     {errors.surName && errors.surName.type === 'required' && <span className="register-span">Ez a mező nem lehet üres!</span>}
                     {errors.surName && errors.surName.type === 'maxLength' && <span className="register-span">A karakterek száma  20!</span> }
+                    {errors.surName && errors.surName.type === 'pattern' && <span className="register-span">Csak betűket szabad használni és az első betű nagybetű!</span> }
+
                 </Form.Group>
                 <Form.Group>
                     <Form.Label>Keresztnév</Form.Label>
@@ -44,11 +46,12 @@ function RegisterPage() {
                                       {
                                           required: true,
                                           maxLength: 20,
+                                          pattern: /^[A-ZÁÉÚŐÓÜÖÍ]+[a-záéúőóüöűí]*$/
                                       })}
                     />
                     {errors.lastName && errors.lastName.type === 'required' && <span className="register-span">Ez a mező nem lehet üres!</span>}
                     {errors.lastName && errors.lastName.type === 'maxLength' && <span className="register-span">A maximális karakterek száma  20!</span> }
-
+                    {errors.lastName && errors.lastName.type === 'pattern' && <span className="register-span">Csak betűket szabad használni és az első betű nagybetű!</span> }
                 </Form.Group>
 
                 <Form.Group>
@@ -110,13 +113,16 @@ function RegisterPage() {
                                       required:true,
                                       maxLength:20,
                                       minLength:5,
-                                      pattern: /[a-zA-Z\d]{5,}/
+                                      pattern: /[a-zA-Z\d]{5,}/,
+                                      validate: (value) =>
+                                          value === getValues().password
                                   })}
                     />
                     {errors.passwordConfirm && errors.passwordConfirm.type === 'required' && <span className="register-span">Ez a mező nem lehet üres!</span>}
                     {errors.passwordConfirm && errors.passwordConfirm.type === 'maxLength' && <span className="register-span">A maximális karakterek száma  20!</span> }
                     {errors.passwordConfirm && errors.passwordConfirm.type === 'minLength' && <span className="register-span">A jelszó hossza legalább 5 karakter!</span> }
                     {errors.passwordConfirm && errors.passwordConfirm.type === 'pattern' && <span className="register-span">Nem megengedett karakterek találhatóak a jelszóban!</span> }
+                    {errors.passwordConfirm && errors.passwordConfirm.type === 'validate' && <span className={'register-span'}>Nem egyeznek a jelszavak</span>}
                 </Form.Group>
             </Form>
             <button className='btn btn-outline-primary register-button' type="submit">Regisztráció</button>
