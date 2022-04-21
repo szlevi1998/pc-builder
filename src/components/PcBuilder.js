@@ -40,6 +40,10 @@ function PcBuilderPage() {
         navigation("/pcbuilder/powersupplies");
     }
 
+    const navigateToMonitors = ()=>{
+        navigation("/pcbuilder/monitors");
+    }
+
     return (
         <div>
             <NavBar/>
@@ -124,7 +128,7 @@ function PcBuilderPage() {
                     <tr>
                         <td className="column">Monitor</td>
                         <td><div>
-                            <a className="btn btn-primary add-button" onClick={navigateToPSUs}>+ Hozzáadás</a>
+                            <a className="btn btn-primary add-button" onClick={navigateToMonitors}>+ Hozzáadás</a>
                         </div></td>
                         <td></td>
                         <td></td>

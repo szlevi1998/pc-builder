@@ -1,22 +1,117 @@
-.motherboards-h1 {
-    text-align: center;
-    width: fit-content;
+.motherboards-h1{
     background-color: white;
-    border-radius: 1vh;
+    max-width: fit-content;
     position: relative;
-    left: 40%;
+    left: 50%;
     margin-top: 2vh;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
 }
-.motherboards {
-    position: relative;
-    left: 1%;
+.motherboards-filters{
+    background-color: white;
+    max-width: fit-content;
+    border: 1vh solid lightblue;
+    margin-left: 1vh;
+    display: inline-block;
+    font-size: 1.8vh;
+}
+.motherboards-search{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
 }
 
-.motherboards-table {
+.motherboards-search h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.motherboards-price{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-price h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.motherboards-manufacturer{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-manufacturer h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.motherboards-memorytype{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-memorytype h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.motherboards-socket{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-socket h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.motherboards-size{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-size h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.motherboards-chipset{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-chipset h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.motherboards-bluetooth{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-bluetooth h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+.motherboards-wifi{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-wifi h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+
+#flexCheckDefault{
+    margin-right: 1vh;
+}
+.motherboards-list{
     display: inline-table;
-    position: relative;
-    left: 10%;
     width: 65%;
     table-layout: fixed;
     margin-left: 1vh;
@@ -24,70 +119,13 @@
     background-color: white;
 }
 
-.motherboards-table th {
-    padding: 2vh;
-    text-align: center;
-    border: 1px solid #eeeeee;
-}
 
-.motherboards-table tr {
+.motherboards-list tr{
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-
-.motherboards-table td {
+.motherboards-list th{
+    padding: 2vh;
     text-align: center;
-}
-
-.container-motherboards {
-    display: inline-block;
-    width: fit-content;
-    position: relative;
-    left: 3%;
-    background-color: white;
-    border: 1vh solid lightblue;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 1.5vh;
-}
-.container-motherboards h5{
-    padding-top: 1vh;
-    font-size: 1.8vh;
-    font-weight: 700;
-    border-bottom: 1px solid #eeeeee;
-    text-align: right;
-}
-
-#root > div > div > section > div > section.form-check.filter-section-manufacturer{
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 2vh;
-}
-
-#root > div > div > section > div > section.form-check.filter-section-sockets{
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 2vh;
-}
-#root > div > div > section > div > section.form-check.filter-section-size{
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 2vh;
-}
-#root > div > div > section > div > section.form-check.filter-section-chipset{
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 2vh;
-
-}
-
-#root > div > div > section > div > section.form-check.filter-section-memorytype{
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 2vh;
-
-}
-#root > div > div > section > div > section.form-check.filter-section-bluetooth{
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 2vh;
-
-}
-#root > div > div > section > div > section.form-check.filter-section-wifi{
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 2vh;
+    border: 1px solid #eeeeee;
 }

@@ -251,7 +251,7 @@ function PcCasesListPage(){
                 </section>
 
             </div>
-            <Table className="table-responsive-md videocards-list">
+            <Table className="table-responsive-md pccases-list">
                 <thead>
                 <tr>
                     <th>Termék neve</th>
@@ -275,9 +275,11 @@ function PcCasesListPage(){
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
 
                 <tr>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>

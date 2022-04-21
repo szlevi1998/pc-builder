@@ -215,7 +215,7 @@ function StorageListPage(){
 
                 </section>
             </div>
-            <Table className="table-responsive-md videocards-list">
+            <Table className="table-responsive-md storage-list">
                 <thead>
                 <tr>
                     <th>Termék neve</th>

@@ -15,6 +15,7 @@ import VideoCards from "./components/builderpages/VideoCards";
 import Storages from "./components/builderpages/Storages";
 import PcCases from "./components/builderpages/PcCases";
 import PowerSupplies from "./components/builderpages/PowerSupplies";
+import Monitors from "./components/builderpages/Monitors";
 
 export default class SubPages extends React.Component {
     render() {
@@ -27,14 +28,15 @@ export default class SubPages extends React.Component {
                     <Route path='/prebuilds' element={<PreBuilds/>}/>
                     <Route path='/pcbuilder' element={<PcBuilder/>}/>
                     <React.Fragment>
+                        <Route path='pcbuilder/memories' element={<Memories/>}></Route>
                         <Route path='pcbuilder/motherboards' element={<Motherboards/>}></Route>
+                        <Route path='pcbuilder/monitors' element={<Monitors/>}></Route>
                         <Route path='pcbuilder/processors' element={<Processors/>}></Route>
                         <Route path='pcbuilder/processorcoolers' element={<ProcessorCoolers/>}></Route>
-                        <Route path='pcbuilder/memories' element={<Memories/>}></Route>
-                        <Route path='pcbuilder/videocards' element={<VideoCards/>}></Route>
-                        <Route path='pcbuilder/storages' element={<Storages/>}></Route>
                         <Route path='pcbuilder/cases' element={<PcCases/>}></Route>
                         <Route path='pcbuilder/powersupplies' element={<PowerSupplies/>}></Route>
+                        <Route path='pcbuilder/storages' element={<Storages/>}></Route>
+                        <Route path='pcbuilder/videocards' element={<VideoCards/>}></Route>
                     </React.Fragment>
                     <Route path='/savedbuilds' element={<SavedBuildPage/>}/>
                 </Routes>

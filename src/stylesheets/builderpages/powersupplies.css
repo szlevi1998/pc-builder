@@ -1,4 +1,4 @@
-.processor-h1{
+.psu-h1{
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,7 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.processor-filters{
+.psu-filters{
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,99 +15,74 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.processor-search{
+.psu-search{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-search h5{
+.psu-search h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-price{
+.psu-price{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-price h5{
+.psu-price h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-
-.processor-brand{
+.psu-manufacturer{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-brand h5{
+.psu-manufacturer h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-
-.processor-cores{
+.psu-type{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-cores h5{
+.psu-type h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-series{
+.psu-performance{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-series h5{
+.psu-performance h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-socket{
+.psu-efficiency{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-socket h5{
+.psu-efficiency h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
-}
-.processor-igp{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
 }
 
-.processor-igp h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.processor-maxclock{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.processor-maxclock h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
 #flexCheckDefault{
     margin-right: 1vh;
 }
 
-#flexCheckDefault,FlexRadioDefault-all,FlexRadioDefault-intel,FlexRadioDefault-amd{
-    margin-right: 1vh;
-}
-
-.processor-list{
+.psu-list{
     display: inline-table;
-    width: 65%;
+    width: 75%;
     table-layout: fixed;
     margin-left: 1vh;
     border: 5px solid lightblue;
@@ -115,11 +90,11 @@
 }
 
 
-.processor-list tr{
+.psu-list tr{
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.processor-list th{
+.psu-list th{
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

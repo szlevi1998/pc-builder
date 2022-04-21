@@ -6,57 +6,66 @@ import {Button, Table} from "react-bootstrap";
 function ProcessorListPage() {
 
     const navigate = useNavigate();
-    const backToPcBuilder = ()=>{
+    const backToPcBuilder = () => {
         navigate("/pcbuilder");
     }
 
     return (<div>
-            <section className="h1">
-            <h1>Válassz processzort!</h1>
-            </section>
-        <div className="container filters">
-            <section className="form-check filter-section-price">
-                <div >
-                    <h5>Ár</h5>
+            <h1 className="processor-h1">Válassz processzort!</h1>
+
+            <div className="processor-filters">
+
+                <section className="processor-search">
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
-                        />
-                        <label className="form-check-label">50000 FT alatt</label>
+                        <h5>Keresés</h5>
+                        <input type="search" className="form-control" placeholder="Keresés"/>
                     </div>
+                </section>
+
+                <section className="processor-price">
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
-                        />
-                        <label className="form-check-label">50000-75000 FT</label>
+                        <h5>Ár</h5>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">50000 FT alatt</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">50000-75000 FT</label>
+                        </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
                             <label className="form-check-label">75000-110000 FT</label>
-                            <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
-                                />
-                                <label className="form-check-label">110000-150000 FT</label>
-                            </div>
-                            <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
-                                />
-                                <label className="form-check-label">150000 FT fölött</label>
-                            </div>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">110000-150000 FT</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">150000 FT fölött</label>
                         </div>
                     </div>
-                </div>
-            </section>
-                <section className="form-check filter-section-brand">
-                    <div className="fields">
+                </section>
+
+                <section className="processor-brand">
+                    <div>
                         <h5>Márka</h5>
                         <input className="form-check-input"
                                type="radio"
@@ -66,7 +75,7 @@ function ProcessorListPage() {
                         <label className="form-check-label">Bármelyik</label>
                     </div>
 
-                    <div className="fields">
+                    <div>
                         <input className="form-check-input"
                                type="radio"
                                name="filter-section"
@@ -75,7 +84,7 @@ function ProcessorListPage() {
                         <label className="form-check-label">AMD</label>
                     </div>
 
-                    <div className="fields">
+                    <div>
                         <input className="form-check-input"
                                type="radio"
                                name="filter-section"
@@ -84,10 +93,8 @@ function ProcessorListPage() {
                         <label className="form-check-label">Intel</label>
                     </div>
                 </section>
-                <section className="input-group search">
-                    <input type="search" className="form-control" placeholder="Keresés"/>
-                </section>
-                <section className="form-check filter-section-cores">
+
+                <section className="processor-cores">
                     <div>
                         <h5>Magok száma</h5>
                         <div>
@@ -97,6 +104,7 @@ function ProcessorListPage() {
                             />
                             <label className="form-check-label">4</label>
                         </div>
+
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
@@ -134,7 +142,8 @@ function ProcessorListPage() {
                         </div>
                     </div>
                 </section>
-                <section className="form-check filter-section-series">
+
+                <section className="processor-series">
                     <div>
                         <h5>Széria</h5>
                         <div>
@@ -188,7 +197,8 @@ function ProcessorListPage() {
                         </div>
                     </div>
                 </section>
-                <section className="form-check filter-section-socket">
+
+                <section className="processor-socket">
                     <div>
                         <h5>Foglalat</h5>
                         <div>
@@ -214,7 +224,8 @@ function ProcessorListPage() {
                         </div>
                     </div>
                 </section>
-                <section className="form-check filter-section-igp">
+
+                <section className="processor-igp">
                     <div>
                         <h5>Integrált videókártya</h5>
                         <div>
@@ -233,8 +244,9 @@ function ProcessorListPage() {
                         </div>
                     </div>
                 </section>
-                <section className="form-check filter-section-clock">
-                    <div >
+
+                <section className="processor-maxclock">
+                    <div>
                         <h5>Maximális Órajel</h5>
                         <div>
                             <input className="form-check-input"
@@ -249,20 +261,20 @@ function ProcessorListPage() {
                                    id="flexCheckDefault"
                             />
                             <label className="form-check-label">4500-4700</label>
-                            <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
-                                />
-                                <label className="form-check-label">4800-5000</label>
-                                <div>
-                                    <input className="form-check-input"
-                                           type="checkbox"
-                                           id="flexCheckDefault"
-                                    />
-                                    <label className="form-check-label">5000-</label>
-                                </div>
-                            </div>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">4800-5000</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">5000-</label>
                         </div>
                     </div>
                 </section>

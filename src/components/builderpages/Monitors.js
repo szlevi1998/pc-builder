@@ -1,19 +1,19 @@
 import React from "react";
-import "../../stylesheets/builderpages/memories.css"
+import "../../stylesheets/builderpages/monitors.css";
 import {useNavigate} from "react-router-dom";
 import {Button, Table} from "react-bootstrap";
 
-function MemoryListPage() {
+function MonitorListPage() {
     return (<div>
-            <h1 className="memories-h1">Válassz memóriát!</h1>
-            <div className="memories-filters">
-                <section className="memories-search">
+            <h1 className="monitor-h1">Válassz monitort!</h1>
+            <div className="monitor-filters">
+                <section className="monitor-search">
                     <div>
                         <h5>Keresés</h5>
                         <input type="search" className="form-control" placeholder="Keresés"/>
                     </div>
                 </section>
-                <section className="memories-price">
+                <section className="monitor-price">
                     <div>
                         <h5>Ár</h5>
                         <div>
@@ -21,7 +21,7 @@ function MemoryListPage() {
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">10000 FT alatt</label>
+                            <label className="form-check-label">70000 FT alatt</label>
                         </div>
 
                         <div>
@@ -29,32 +29,19 @@ function MemoryListPage() {
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">10000-18000 FT</label>
+                            <label className="form-check-label">70000-125000 FT</label>
                         </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">18000-35000 FT</label>
+                            <label className="form-check-label">125000 FT fölött</label>
                         </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">35000-55000 FT</label>
-                        </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">55000 FT fölött</label>
-                        </div>
+
                     </div>
                 </section>
-                <section className="memories-manufacturer">
+                <section className="monitor-manufacturer">
                     <div>
                         <h5>Gyártó</h5>
                         <div>
@@ -62,59 +49,44 @@ function MemoryListPage() {
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">ADATA</label>
+                            <label className="form-check-label">Acer</label>
                         </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">Corsair</label>
+                            <label className="form-check-label">AOC</label>
                         </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">Crucial</label>
+                            <label className="form-check-label">Asus</label>
                         </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">G.SKILL</label>
+                            <label className="form-check-label">LG</label>
                         </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">Kingston</label>
+                            <label className="form-check-label">MSI</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">Philips</label>
                         </div>
 
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Patriot</label>
-                        </div>
-
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Team Group</label>
-                        </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Thermaltake</label>
-                        </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
@@ -122,18 +94,26 @@ function MemoryListPage() {
                             />
                             <label className="form-check-label">Samsung</label>
                         </div>
-                    </div>
 
-                </section>
-                <section className="memories-memorytype">
-                    <div>
-                        <h5>Memória típusa</h5>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">DDR4</label>
+                            <label className="form-check-label">Xiaomi</label>
+                        </div>
+                    </div>
+
+                </section>
+                <section className="monitor-ratio">
+                    <div>
+                        <h5>Arány</h5>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">16:9</label>
                         </div>
 
                         <div>
@@ -141,14 +121,192 @@ function MemoryListPage() {
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">DDR5</label>
+                            <label className="form-check-label">21:9</label>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section className="monitor-panel">
+                    <div>
+                        <h5>Panel</h5>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">IPS</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">VA</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">TN</label>
                         </div>
                     </div>
 
                 </section>
-                <section className="memories-size">
+
+                <section className="monitor-hz">
                     <div>
-                        <h5>Méret</h5>
+                        <h5>Frissítési arány</h5>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">60</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">75</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">144</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">165</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">240</label>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="monitor-resolution">
+                    <div>
+                        <h5>Felbontás</h5>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">1920x1080</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">2560x1080</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">2560x1440</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">3840x2160</label>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section className="monitor-resolutiontype">
+                    <div>
+                        <h5>Felbontás típus</h5>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">Full HD</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">2K</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">4K</label>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section className="monitor-reaction">
+                    <div>
+                        <h5>Reakcióidő</h5>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">1</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">2</label>
+                        </div>
+
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">4</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">5</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">6</label>
+                        </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
@@ -156,15 +314,50 @@ function MemoryListPage() {
                             />
                             <label className="form-check-label">8</label>
                         </div>
+                    </div>
+
+                </section>
+
+                <section className="monitor-size">
+                    <div>
+                        <h5>Méret</h5>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">21</label>
+                        </div>
 
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">16</label>
+                            <label className="form-check-label">23</label>
                         </div>
 
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">24</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">27</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">29</label>
+                        </div>
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
@@ -172,138 +365,39 @@ function MemoryListPage() {
                             />
                             <label className="form-check-label">32</label>
                         </div>
-
                         <div>
                             <input className="form-check-input"
                                    type="checkbox"
                                    id="flexCheckDefault"
                             />
-                            <label className="form-check-label">64</label>
+                            <label className="form-check-label">34</label>
+                        </div>
+                        <div>
+                            <input className="form-check-input"
+                                   type="checkbox"
+                                   id="flexCheckDefault"
+                            />
+                            <label className="form-check-label">43</label>
                         </div>
                     </div>
 
                 </section>
-                <section className="memories-clock">
-                    <div>
-                        <h5>Órajel</h5>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">2400-3000</label>
-                        </div>
 
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">3200-3600</label>
-                        </div>
-
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">4000 fölött</label>
-                        </div>
-                    </div>
-
-                </section>
-                <section className="memories-latency">
-                    <div>
-                        <h5>Késleltetés</h5>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">40-36</label>
-                        </div>
-
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">19</label>
-                        </div>
-
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">18</label>
-                        </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">17</label>
-                        </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">16</label>
-                        </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">14</label>
-                        </div>
-                    </div>
-
-                </section>
-                <section className="memories-channel">
-                    <div>
-                        <h5>Channel</h5>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Single</label>
-                        </div>
-
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Dual</label>
-                        </div>
-
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Quad</label>
-                        </div>
-                    </div>
-                </section>
             </div>
-            <Table className="table-responsive-md memories-list">
+            <Table className="table-responsive-md monitor-list">
                 <thead>
                 <tr>
                     <th>Termék neve</th>
                     <th>Gyártó</th>
                     <th>Min.ár</th>
                     <th>Átlag ár</th>
-                    <th>Memória típusa</th>
+                    <th>Képarány</th>
+                    <th>Panel</th>
+                    <th>Képfrissítés</th>
+                    <th>Felbontás</th>
+                    <th>Felbontás típus</th>
+                    <th>Reakció idő</th>
                     <th>Méret</th>
-                    <th>Órajel</th>
-                    <th>Késleltetés</th>
-                    <th>Channel</th>
-
                 </tr>
                 </thead>
                 <tbody>
@@ -317,9 +411,13 @@ function MemoryListPage() {
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
 
                 <tr>
+                    <td></td>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -337,8 +435,8 @@ function MemoryListPage() {
     )
 }
 
-export default class Memories extends React.Component {
+export default class Monitors extends React.Component {
     render() {
-        return <MemoryListPage/>
+        return <MonitorListPage/>
     }
 }

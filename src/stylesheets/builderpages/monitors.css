@@ -1,4 +1,4 @@
-.processor-h1{
+.monitor-h1{
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,7 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.processor-filters{
+.monitor-filters{
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,97 +15,115 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.processor-search{
+.monitor-search{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-search h5{
+.monitor-search h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-price{
+.monitor-price{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-price h5{
+.monitor-price h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-
-.processor-brand{
+.monitor-manufacturer{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-brand h5{
+.monitor-manufacturer h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-
-.processor-cores{
+.monitor-ratio{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-cores h5{
+.monitor-ratio h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-series{
+.monitor-panel{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-series h5{
+.monitor-panel h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-socket{
+
+.monitor-hz{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-socket h5{
+.monitor-hz h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-igp{
+.monitor-resolution{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-igp h5{
+.monitor-resolution h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-maxclock{
+
+.monitor-resolutiontype{
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-maxclock h5{
+.monitor-resolutiontype h5{
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
+
+.monitor-reaction{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.monitor-reaction h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.monitor-size{
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.monitor-size h5{
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
 #flexCheckDefault{
     margin-right: 1vh;
 }
-
-#flexCheckDefault,FlexRadioDefault-all,FlexRadioDefault-intel,FlexRadioDefault-amd{
-    margin-right: 1vh;
-}
-
-.processor-list{
+.monitor-list{
     display: inline-table;
     width: 65%;
     table-layout: fixed;
@@ -115,11 +133,11 @@
 }
 
 
-.processor-list tr{
+.monitor-list tr{
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.processor-list th{
+.monitor-list th{
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;
