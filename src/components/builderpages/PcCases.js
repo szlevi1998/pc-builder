@@ -1,257 +1,257 @@
-import React from "react";
-import "../../stylesheets/builderpages/pcCases.css"
-import {useNavigate} from "react-router-dom";
-import {Button, Table} from "react-bootstrap";
+import React from 'react';
+import '../../stylesheets/builderpages/pcCases.css'
+import {useNavigate} from 'react-router-dom';
+import {Button, Table} from 'react-bootstrap';
 
-function PcCasesListPage(){
+function PcCasesListPage() {
     return (<div>
-            <h1 className="pccases-h1">Válassz tárolót!</h1>
-            <div className="pccases-filters">
-                <section className="pccases-search">
+            <h1 className='pccases-h1'>Válassz tárolót!</h1>
+            <div className='pccases-filters'>
+                <section className='pccases-search'>
                     <div>
                         <h5>Keresés</h5>
-                        <input type="search" className="form-control" placeholder="Keresés"/>
+                        <input type='search' className='form-control' placeholder='Keresés'/>
                     </div>
                 </section>
-                <section className="pccases-price">
+                <section className='pccases-price'>
                     <div>
                         <h5>Ár</h5>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">25000 FT alatt</label>
+                            <label className='form-check-label'>25000 FT alatt</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">25000-38000 FT</label>
+                            <label className='form-check-label'>25000-38000 FT</label>
                         </div>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">38000 FT fölött</label>
+                            <label className='form-check-label'>38000 FT fölött</label>
                         </div>
 
                     </div>
                 </section>
-                <section className="pccases-manufacturer">
+                <section className='pccases-manufacturer'>
                     <div>
                         <h5>Gyártó</h5>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">ASUS</label>
+                            <label className='form-check-label'>ASUS</label>
                         </div>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">be quiet!</label>
+                            <label className='form-check-label'>be quiet!</label>
                         </div>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Cooler Master</label>
+                            <label className='form-check-label'>Cooler Master</label>
                         </div>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Corsair</label>
+                            <label className='form-check-label'>Corsair</label>
                         </div>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Fractal Design</label>
-                        </div>
-
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Lian Li</label>
+                            <label className='form-check-label'>Fractal Design</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">NZXT</label>
+                            <label className='form-check-label'>Lian Li</label>
+                        </div>
+
+                        <div>
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
+                            />
+                            <label className='form-check-label'>NZXT</label>
                         </div>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Phanteks</label>
+                            <label className='form-check-label'>Phanteks</label>
                         </div>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Thermaltake</label>
+                            <label className='form-check-label'>Thermaltake</label>
                         </div>
                     </div>
 
                 </section>
-                <section className="pccases-color">
+                <section className='pccases-color'>
                     <div>
                         <h5>Szín</h5>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Fehér</label>
+                            <label className='form-check-label'>Fehér</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Fekete</label>
+                            <label className='form-check-label'>Fekete</label>
                         </div>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Szürke</label>
+                            <label className='form-check-label'>Szürke</label>
                         </div>
                     </div>
 
                 </section>
 
-                <section className="pccases-psu">
+                <section className='pccases-psu'>
                     <div>
                         <h5>Tápegység</h5>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Nincs</label>
+                            <label className='form-check-label'>Nincs</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Van</label>
+                            <label className='form-check-label'>Van</label>
                         </div>
                     </div>
 
                 </section>
 
-                <section className="pccases-weight">
+                <section className='pccases-weight'>
                     <div>
                         <h5>Súly</h5>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">6 Kg alatt</label>
+                            <label className='form-check-label'>6 Kg alatt</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">6-10 Kg</label>
+                            <label className='form-check-label'>6-10 Kg</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">10 Kg felett</label>
+                            <label className='form-check-label'>10 Kg felett</label>
                         </div>
                     </div>
                 </section>
 
-                <section className="pccases-sizetype">
+                <section className='pccases-sizetype'>
                     <div>
                         <h5>Méret típus</h5>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">MiniTower</label>
+                            <label className='form-check-label'>MiniTower</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">MidTower</label>
+                            <label className='form-check-label'>MidTower</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Fulltower</label>
+                            <label className='form-check-label'>Fulltower</label>
                         </div>
                     </div>
                 </section>
 
-                <section className="pccases-fans">
+                <section className='pccases-fans'>
                     <div>
                         <h5>Ventik száma</h5>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">Nincs</label>
+                            <label className='form-check-label'>Nincs</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">1-2</label>
+                            <label className='form-check-label'>1-2</label>
                         </div>
 
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">3 vagy több</label>
+                            <label className='form-check-label'>3 vagy több</label>
                         </div>
                     </div>
                 </section>
 
             </div>
-            <Table className="table-responsive-md pccases-list">
+            <Table className='table-responsive-md pccases-list'>
                 <thead>
                 <tr>
                     <th>Termék neve</th>
@@ -291,12 +291,12 @@ function PcCasesListPage(){
                 </tr>
                 </tbody>
             </Table>
-            <Button className="btn-success" >Választ</Button>
+            <Button className='btn-success'>Választ</Button>
         </div>
     )
 }
 
-export default class PcCases extends React.Component{
+export default class PcCases extends React.Component {
     render() {
         return <PcCasesListPage/>
     }

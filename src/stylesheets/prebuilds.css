@@ -1,6 +1,6 @@
 body {
     font-size: 2vh;
-    font-family: "Gill Sans", sans-serif;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 .title-h1 {
@@ -60,12 +60,12 @@ body {
     font-weight: 600;
 }
 
-.left-box p,.middle-box p, .right-box p {
+.left-box p, .middle-box p, .right-box p {
     letter-spacing: normal;
     padding-top: 1vh;
 }
 
-.image-section{
+.image-section {
     padding-top: 2vh;
 }
 

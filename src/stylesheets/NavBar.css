@@ -1,14 +1,17 @@
-body{
+body {
     font: 3vh bold;
 }
-.navs{
+
+.navs {
     max-width: available;
     margin: 0;
 }
-.container{
+
+.container {
     margin-left: 0;
 }
-.image-for-navbar{
+
+.image-for-navbar {
     margin-right: 2.5vh;
     cursor: pointer;
 }

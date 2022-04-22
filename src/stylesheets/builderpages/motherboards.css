@@ -1,4 +1,4 @@
-.motherboards-h1{
+.motherboards-h1 {
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,8 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.motherboards-filters{
+
+.motherboards-filters {
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,102 +16,112 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.motherboards-search{
+
+.motherboards-search {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.motherboards-search h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.motherboards-price{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.motherboards-price h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.motherboards-manufacturer{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.motherboards-manufacturer h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.motherboards-memorytype{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.motherboards-memorytype h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.motherboards-socket{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.motherboards-socket h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.motherboards-size{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.motherboards-size h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.motherboards-chipset{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.motherboards-chipset h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.motherboards-bluetooth{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.motherboards-bluetooth h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.motherboards-wifi{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.motherboards-wifi h5{
+.motherboards-search h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
 
+.motherboards-price {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
 
-#flexCheckDefault{
+.motherboards-price h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.motherboards-manufacturer {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-manufacturer h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.motherboards-memorytype {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-memorytype h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.motherboards-socket {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-socket h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.motherboards-size {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-size h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.motherboards-chipset {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-chipset h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.motherboards-bluetooth {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-bluetooth h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.motherboards-wifi {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.motherboards-wifi h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+
+#flexCheckDefault {
     margin-right: 1vh;
 }
-.motherboards-list{
+
+.motherboards-list {
     display: inline-table;
     width: 65%;
     table-layout: fixed;
@@ -120,11 +131,12 @@
 }
 
 
-.motherboards-list tr{
+.motherboards-list tr {
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.motherboards-list th{
+
+.motherboards-list th {
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

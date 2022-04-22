@@ -6,269 +6,269 @@ import {Button, Table} from 'react-bootstrap';
 function MotherBoardListPage() {
     const navigate = useNavigate();
     const backToPcBuilder = () => {
-        navigate("/pcbuilder");
+        navigate('/pcbuilder');
     }
 
 
     return (<div>
-            <h1 className="motherboards-h1">Válassz alaplapot!</h1>
-            <div className="motherboards-filters">
+            <h1 className='motherboards-h1'>Válassz alaplapot!</h1>
+            <div className='motherboards-filters'>
 
-                <section className="motherboards-search">
+                <section className='motherboards-search'>
                     <div>
                         <h5>Keresés</h5>
-                        <input type="search" className="form-control" placeholder="Keresés"/>
+                        <input type='search' className='form-control' placeholder='Keresés'/>
                     </div>
                 </section>
 
-                <section className="motherboards-price">
+                <section className='motherboards-price'>
                     <div>
                         <h5>Ár</h5>
 
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">50000 FT alatt</label>
+                        <label className='form-check-label'>50000 FT alatt</label>
                     </div>
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">50000-75000 FT</label>
+                        <label className='form-check-label'>50000-75000 FT</label>
                     </div>
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">75000-110000 FT</label>
+                        <label className='form-check-label'>75000-110000 FT</label>
                     </div>
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">110000-150000 FT</label>
+                        <label className='form-check-label'>110000-150000 FT</label>
                     </div>
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">150000 FT fölött</label>
+                        <label className='form-check-label'>150000 FT fölött</label>
                     </div>
                 </section>
 
-                <section className="motherboards-manufacturer">
+                <section className='motherboards-manufacturer'>
                     <div>
                         <h5>Gyártó</h5>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">AsRock</label>
+                        <label className='form-check-label'>AsRock</label>
                     </div>
 
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">ASUS</label>
+                        <label className='form-check-label'>ASUS</label>
                     </div>
 
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">Gigabyte</label>
+                        <label className='form-check-label'>Gigabyte</label>
                     </div>
 
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">MSI</label>
+                        <label className='form-check-label'>MSI</label>
                     </div>
 
                 </section>
 
-                <section className="motherboards-socket">
+                <section className='motherboards-socket'>
                     <div>
                         <h5>Foglalat</h5>
 
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">AMD Socket AM4</label>
+                        <label className='form-check-label'>AMD Socket AM4</label>
                     </div>
 
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">LGA 1200</label>
+                        <label className='form-check-label'>LGA 1200</label>
                     </div>
 
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">LGA 1700</label>
+                        <label className='form-check-label'>LGA 1700</label>
                     </div>
                 </section>
 
-                <section className="motherboards-size">
+                <section className='motherboards-size'>
                     <div>
                         <h5>Méret</h5>
 
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">ATX</label>
+                        <label className='form-check-label'>ATX</label>
                     </div>
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">MicroATX</label>
+                        <label className='form-check-label'>MicroATX</label>
                     </div>
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">Mini-ITX</label>
+                        <label className='form-check-label'>Mini-ITX</label>
                     </div>
                 </section>
 
-                <section className="motherboards-chipset">
+                <section className='motherboards-chipset'>
                     <div>
                         <h5>Chipset</h5>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">AMD A520</label>
+                        <label className='form-check-label'>AMD A520</label>
                     </div>
                     <div>
-                        <input className="form-check-input"
-                               type="checkbox"
-                               id="flexCheckDefault"
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
                         />
-                        <label className="form-check-label">AMD B550</label>
+                        <label className='form-check-label'>AMD B550</label>
                         <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
+                            <input className='form-check-input'
+                                   type='checkbox'
+                                   id='flexCheckDefault'
                             />
-                            <label className="form-check-label">AMD X570</label>
+                            <label className='form-check-label'>AMD X570</label>
                             <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
+                                <input className='form-check-input'
+                                       type='checkbox'
+                                       id='flexCheckDefault'
                                 />
-                                <label className="form-check-label">Intel H510</label>
+                                <label className='form-check-label'>Intel H510</label>
                             </div>
                             <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
+                                <input className='form-check-input'
+                                       type='checkbox'
+                                       id='flexCheckDefault'
                                 />
-                                <label className="form-check-label">Intel H610</label>
+                                <label className='form-check-label'>Intel H610</label>
                             </div>
                             <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
+                                <input className='form-check-input'
+                                       type='checkbox'
+                                       id='flexCheckDefault'
                                 />
-                                <label className="form-check-label">Intel B560</label>
+                                <label className='form-check-label'>Intel B560</label>
                             </div>
                             <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
+                                <input className='form-check-input'
+                                       type='checkbox'
+                                       id='flexCheckDefault'
                                 />
-                                <label className="form-check-label">Intel B660</label>
+                                <label className='form-check-label'>Intel B660</label>
                             </div>
                             <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
+                                <input className='form-check-input'
+                                       type='checkbox'
+                                       id='flexCheckDefault'
                                 />
-                                <label className="form-check-label">Intel Z590</label>
+                                <label className='form-check-label'>Intel Z590</label>
                             </div>
                             <div>
-                                <input className="form-check-input"
-                                       type="checkbox"
-                                       id="flexCheckDefault"
+                                <input className='form-check-input'
+                                       type='checkbox'
+                                       id='flexCheckDefault'
                                 />
-                                <label className="form-check-label">Intel Z690</label>
+                                <label className='form-check-label'>Intel Z690</label>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="motherboards-memorytype">
+                <section className='motherboards-memorytype'>
                     <div>
                         <h5>Memóriatípus</h5>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">DDR4</label>
-                        </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">DDR5</label>
-                        </div>
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
+                        />
+                        <label className='form-check-label'>DDR4</label>
+                    </div>
+                    <div>
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
+                        />
+                        <label className='form-check-label'>DDR5</label>
+                    </div>
                 </section>
 
-                <section className="motherboards-bluetooth">
+                <section className='motherboards-bluetooth'>
                     <div>
                         <h5>Bluetooth</h5>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Van</label>
-                        </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Nincs</label>
-                        </div>
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
+                        />
+                        <label className='form-check-label'>Van</label>
+                    </div>
+                    <div>
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
+                        />
+                        <label className='form-check-label'>Nincs</label>
+                    </div>
                 </section>
 
-                <section className="motherboards-wifi">
+                <section className='motherboards-wifi'>
                     <div>
                         <h5>Wifi</h5>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Van</label>
-                        </div>
-                        <div>
-                            <input className="form-check-input"
-                                   type="checkbox"
-                                   id="flexCheckDefault"
-                            />
-                            <label className="form-check-label">Nincs</label>
-                        </div>
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
+                        />
+                        <label className='form-check-label'>Van</label>
+                    </div>
+                    <div>
+                        <input className='form-check-input'
+                               type='checkbox'
+                               id='flexCheckDefault'
+                        />
+                        <label className='form-check-label'>Nincs</label>
+                    </div>
                 </section>
             </div>
 
@@ -319,7 +319,7 @@ function MotherBoardListPage() {
                 </tr>
                 </tbody>
             </Table>
-            <Button className="btn-success" onClick={backToPcBuilder}>Választ</Button>
+            <Button className='btn-success' onClick={backToPcBuilder}>Választ</Button>
         </div>
 
     )

@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import SubPages from "./SubPages";
+import SubPages from './SubPages';
 
 class App extends React.Component {
     render() {
         return (
-            <div className="App">
+            <div className='App'>
                 <SubPages/>
             </div>
         );

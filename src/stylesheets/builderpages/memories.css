@@ -1,4 +1,4 @@
-.memories-h1{
+.memories-h1 {
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,8 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.memories-filters{
+
+.memories-filters {
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,90 +16,100 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.memories-search{
+
+.memories-search {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.memories-search h5{
+.memories-search h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.memories-price{
+
+.memories-price {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.memories-price h5{
+.memories-price h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.memories-manufacturer{
+
+.memories-manufacturer {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.memories-manufacturer h5{
+.memories-manufacturer h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.memories-memorytype{
+
+.memories-memorytype {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.memories-memorytype h5{
+.memories-memorytype h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.memories-size{
+
+.memories-size {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.memories-size h5{
+.memories-size h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.memories-clock{
+
+.memories-clock {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.memories-clock h5{
+.memories-clock h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.memories-latency{
+
+.memories-latency {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.memories-latency h5{
+.memories-latency h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.memories-channel{
+
+.memories-channel {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.memories-channel h5{
+.memories-channel h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-#flexCheckDefault{
+
+#flexCheckDefault {
     margin-right: 1vh;
 }
-.memories-list{
+
+.memories-list {
     display: inline-table;
     width: 75%;
     table-layout: fixed;
@@ -108,11 +119,12 @@
 }
 
 
-.memories-list tr{
+.memories-list tr {
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.memories-list th{
+
+.memories-list th {
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

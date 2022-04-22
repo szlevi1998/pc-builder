@@ -1,4 +1,4 @@
-.processor-h1{
+.processor-h1 {
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,8 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.processor-filters{
+
+.processor-filters {
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,97 +16,104 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.processor-search{
+
+.processor-search {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-search h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.processor-price{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.processor-price h5{
+.processor-search h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
 
-.processor-brand{
+.processor-price {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-brand h5{
+.processor-price h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
 
-.processor-cores{
+.processor-brand {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-cores h5{
+.processor-brand h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-series{
+
+.processor-cores {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-series h5{
+.processor-cores h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-socket{
+
+.processor-series {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-socket h5{
+.processor-series h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-igp{
+
+.processor-socket {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-igp h5{
+.processor-socket h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.processor-maxclock{
+
+.processor-igp {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.processor-maxclock h5{
+.processor-igp h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-#flexCheckDefault{
+
+.processor-maxclock {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.processor-maxclock h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+#flexCheckDefault {
     margin-right: 1vh;
 }
 
-#flexCheckDefault,FlexRadioDefault-all,FlexRadioDefault-intel,FlexRadioDefault-amd{
+#flexCheckDefault {
     margin-right: 1vh;
 }
 
-.processor-list{
+.processor-list {
     display: inline-table;
     width: 65%;
     table-layout: fixed;
@@ -115,11 +123,12 @@
 }
 
 
-.processor-list tr{
+.processor-list tr {
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.processor-list th{
+
+.processor-list th {
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

@@ -1,8 +1,9 @@
-body{
+body {
     font: 1.5vh bold;
     font-family: serif;
 }
-.register-form{
+
+.register-form {
     position: relative;
     left: 35%;
     background-color: lightblue;
@@ -13,19 +14,21 @@ body{
     border: black solid 2vh;
     border-radius: 10vh;
 }
-.register-h2{
+
+.register-h2 {
     text-align: center;
     font-weight: 700;
     margin-bottom: 2.5vh;
 }
 
-.register-controls{
+.register-controls {
     min-width: 25vh;
     margin-top: 0.5vh;
     margin-bottom: 1vh;
     border-radius: 15px;
 }
-.register-button{
+
+.register-button {
     display: inline;
     position: relative;
     left: 7%;
@@ -33,7 +36,8 @@ body{
     min-width: 40vh;
     border-radius: 5vh;
 }
-.register-span{
+
+.register-span {
     color: red;
     font-size: 1.5vh;
     font-weight: 700;

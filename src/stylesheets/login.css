@@ -1,5 +1,5 @@
 body {
-    background-image: url("background.jpg");
+    background-image: url('background.jpg');
     font-family: serif;
     color: black;
 }
@@ -39,12 +39,13 @@ body {
     margin-bottom: 1vh;
     border-radius: 15px;
 }
-.label-lg,.label-pwd{
+
+.label-lg, .label-pwd {
     font-weight: 700;
     display: block;
 }
 
-.login,.register{
+.login, .register {
     display: block;
     position: relative;
     left: 22%;

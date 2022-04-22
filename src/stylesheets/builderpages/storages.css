@@ -1,4 +1,4 @@
-.storage-h1{
+.storage-h1 {
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,8 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.storage-filters{
+
+.storage-filters {
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,72 +16,78 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.storage-search{
+
+.storage-search {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.storage-search h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.storage-price{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.storage-price h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.storage-manufacturer{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.storage-manufacturer h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.storage-storagetype{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.storage-storagetype h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.storage-socket{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.storage-socket h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.storage-size{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.storage-size h5{
+.storage-search h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
 
-#flexCheckDefault{
+.storage-price {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-price h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.storage-manufacturer {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-manufacturer h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.storage-storagetype {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-storagetype h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.storage-socket {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-socket h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.storage-size {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storage-size h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+#flexCheckDefault {
     margin-right: 1vh;
 }
 
-.storage-list{
+.storage-list {
     display: inline-table;
     width: 75%;
     table-layout: fixed;
@@ -90,11 +97,12 @@
 }
 
 
-.storage-list tr{
+.storage-list tr {
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.storage-list th{
+
+.storage-list th {
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

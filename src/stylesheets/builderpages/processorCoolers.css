@@ -1,4 +1,4 @@
-.coolers-h1{
+.coolers-h1 {
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,8 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.coolers-filters{
+
+.coolers-filters {
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,60 +16,67 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.coolers-search{
+
+.coolers-search {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.coolers-search h5{
-    font-size: 2vh;
-    font-weight: 700;
-        text-align: right;
-}
-.coolers-price{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.coolers-price h5{
+.coolers-search h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.coolers-manufacturer{
+
+.coolers-price {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.coolers-manufacturer h5{
+.coolers-price h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.coolers-coolingtype{
+
+.coolers-manufacturer {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.coolers-coolingtype h5{
+.coolers-manufacturer h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.coolers-rpm{
+
+.coolers-coolingtype {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.coolers-rpm h5{
+.coolers-coolingtype h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-#flexCheckDefault{
+
+.coolers-rpm {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.coolers-rpm h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+#flexCheckDefault {
     margin-right: 1vh;
 }
-.coolers-list{
+
+.coolers-list {
     display: inline-table;
     width: 65%;
     table-layout: fixed;
@@ -78,11 +86,12 @@
 }
 
 
-.coolers-list tr{
+.coolers-list tr {
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.coolers-list th{
+
+.coolers-list th {
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

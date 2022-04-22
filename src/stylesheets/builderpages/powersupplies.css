@@ -1,4 +1,4 @@
-.psu-h1{
+.psu-h1 {
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,8 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.psu-filters{
+
+.psu-filters {
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,72 +16,78 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.psu-search{
+
+.psu-search {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.psu-search h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.psu-price{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.psu-price h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.psu-manufacturer{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.psu-manufacturer h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.psu-type{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.psu-type h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.psu-performance{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.psu-performance h5{
-    font-size: 2vh;
-    font-weight: 700;
-    text-align: right;
-}
-.psu-efficiency{
-    padding: 1vh;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.psu-efficiency h5{
+.psu-search h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
 
-#flexCheckDefault{
+.psu-price {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.psu-price h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.psu-manufacturer {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.psu-manufacturer h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.psu-type {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.psu-type h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.psu-performance {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.psu-performance h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+.psu-efficiency {
+    padding: 1vh;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.psu-efficiency h5 {
+    font-size: 2vh;
+    font-weight: 700;
+    text-align: right;
+}
+
+#flexCheckDefault {
     margin-right: 1vh;
 }
 
-.psu-list{
+.psu-list {
     display: inline-table;
     width: 75%;
     table-layout: fixed;
@@ -90,11 +97,12 @@
 }
 
 
-.psu-list tr{
+.psu-list tr {
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.psu-list th{
+
+.psu-list th {
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

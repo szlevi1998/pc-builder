@@ -1,4 +1,4 @@
-.videocards-h1{
+.videocards-h1 {
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,8 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.videocards-filters{
+
+.videocards-filters {
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,80 +16,89 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.videocards-search{
+
+.videocards-search {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.videocards-search h5{
+.videocards-search h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.videocards-price{
+
+.videocards-price {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.videocards-price h5{
+.videocards-price h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.videocards-manufacturer{
+
+.videocards-manufacturer {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.videocards-manufacturer h5{
+.videocards-manufacturer h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.videocards-memorytype{
+
+.videocards-memorytype {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.videocards-memorytype h5{
+.videocards-memorytype h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.videocards-memorysize{
+
+.videocards-memorysize {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.videocards-memorysize h5{
+.videocards-memorysize h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.videocards-type{
+
+.videocards-type {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.videocards-type h5{
+.videocards-type h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.videocards-chipset{
+
+.videocards-chipset {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.videocards-chipset h5{
+.videocards-chipset h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-#flexCheckDefault{
+
+#flexCheckDefault {
     margin-right: 1vh;
 }
-.videocards-list{
+
+.videocards-list {
     display: inline-table;
     width: 65%;
     table-layout: fixed;
@@ -98,11 +108,12 @@
 }
 
 
-.videocards-list tr{
+.videocards-list tr {
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.videocards-list th{
+
+.videocards-list th {
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

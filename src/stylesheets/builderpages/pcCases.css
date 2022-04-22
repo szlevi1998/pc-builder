@@ -1,4 +1,4 @@
-.pccases-h1{
+.pccases-h1 {
     background-color: white;
     max-width: fit-content;
     position: relative;
@@ -7,7 +7,8 @@
     margin-bottom: 2vh;
     border-radius: 1vh;
 }
-.pccases-filters{
+
+.pccases-filters {
     background-color: white;
     max-width: fit-content;
     border: 1vh solid lightblue;
@@ -15,91 +16,100 @@
     display: inline-block;
     font-size: 1.8vh;
 }
-.pccases-search{
+
+.pccases-search {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.pccases-search h5{
+.pccases-search h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.pccases-price{
+
+.pccases-price {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.pccases-price h5{
+.pccases-price h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.pccases-manufacturer{
+
+.pccases-manufacturer {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.pccases-manufacturer h5{
+.pccases-manufacturer h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.pccases-color{
+
+.pccases-color {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.pccases-color h5{
+.pccases-color h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.pccases-psu{
+
+.pccases-psu {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.pccases-psu h5{
+.pccases-psu h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.pccases-weight{
+
+.pccases-weight {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.pccases-weight h5{
+.pccases-weight h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.pccases-sizetype{
+
+.pccases-sizetype {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.pccases-fans h5{
+.pccases-fans h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-.pccases-fans{
+
+.pccases-fans {
     padding: 1vh;
     border-bottom: 1px solid #eeeeee;
 }
 
-.pccases-sizetype h5{
+.pccases-sizetype h5 {
     font-size: 2vh;
     font-weight: 700;
     text-align: right;
 }
-#flexCheckDefault{
+
+#flexCheckDefault {
     margin-right: 1vh;
 }
 
-.pccases-list{
+.pccases-list {
     display: inline-table;
     width: 75%;
     table-layout: fixed;
@@ -109,11 +119,12 @@
 }
 
 
-.pccases-list tr{
+.pccases-list tr {
     border-bottom: 1px solid #eeeeee;
     height: 8vh;
 }
-.pccases-list th{
+
+.pccases-list th {
     padding: 2vh;
     text-align: center;
     border: 1px solid #eeeeee;

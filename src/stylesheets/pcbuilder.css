@@ -1,4 +1,4 @@
-.builder-h2{
+.builder-h2 {
     position: relative;
     left: 40%;
     border-radius: 3vh;
@@ -11,7 +11,8 @@
     background-color: #eeeeee;
 
 }
-.table-content{
+
+.table-content {
     background-color: snow;
     border: lightblue solid 1vh;
     border-radius: 2vh;
@@ -22,14 +23,16 @@
     padding: 2vh;
     font-weight: 700;
 }
-.table-content thead{
+
+.table-content thead {
     font-size: 2.5vh;
     border-bottom: 0.3vh solid #eeeeee;
     border-right: 0.3vh solid #eeeeee;
     letter-spacing: normal;
     text-align: center;
 }
-.component{
+
+.component {
     text-align: center;
     width: 20vh;
 }
@@ -41,20 +44,24 @@
     height: 8vh;
     border: 2px solid black;
 }
-.column{
+
+.column {
     text-align: left;
 }
-.price{
+
+.price {
     padding-top: 5vh;
     font-size: 25px;
     letter-spacing: normal;
     font-weight: 700;
 }
-.add-button{
+
+.add-button {
     border-radius: 2vh;
     font-size: 2vh;
 }
-.save{
+
+.save {
     min-width: 15vh;
     min-height: 5vh;
     position: relative;
