@@ -16,10 +16,9 @@
     background-color: snow;
     border: lightblue solid 1vh;
     border-radius: 2vh;
-    min-height: 80vh;
-    min-width: 100vh;
+    max-width: 250vh;
     text-transform: none;
-    margin: 4vh;
+    margin: 6vh;
     padding: 2vh;
     font-weight: 700;
 }
@@ -36,6 +35,24 @@
     text-align: center;
     width: 20vh;
 }
+
+.product {
+    text-align: center;
+    width: 45vh;
+}
+.lowest-price {
+    text-align: center;
+    width: 45vh;
+}
+.average-price {
+    text-align: center;
+    width: 45vh;
+}
+.select{
+    width: 10vh;
+}
+
+
 
 .table-content td {
     margin: 2vh;
