@@ -2,12 +2,72 @@
     text-align: center;
     background-color: #eeeeee;
     padding: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    border-radius: 4vh;
+    max-width: fit-content;
+    position: relative;
+    left: 45%;
 }
-.container-md{
+.guidance-h1{
+    background-color: #eeeeee;
+    max-width: 300px;
+    border-radius: 0.5vh;
+    margin-left: 0.5vh;
+}
+.container{
+    position: relative;
+    left: 15%;
+    max-height: 1000px;
+    max-width: 1200px;
+}
+.carousel-dark{
     background-color: white;
     text-align: center;
     margin: auto;
+    padding: 0;
+    border: 2vh solid lightblue;
+    border-radius: 2vh;
+    max-height: 1000px;
+    max-width: 1200px;
 }
-.container-h3{
-    text-align: left;
+.first-item h5{
+    position: relative;
+    bottom: 75vh;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.second-item h5{
+    position: relative;
+    bottom: 85vh;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.third-item h5{
+    position: relative;
+    bottom: 75vh;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.second-item > img:nth-child(1){
+    min-height: 800px;
+    min-width: 1000px;
+    max-height: 1000px;
+    max-width: 1200px;
+}
+.first-item > img:nth-child(1){
+    min-height: 800px;
+    min-width: 1000px;
+    max-height: 1000px;
+    max-width: 1200px;
+}
+.third-item > img:nth-child(1){
+    min-height: 800px;
+    min-width: 1000px;
+    max-height: 1000px;
+    max-width: 1200px;
 }
