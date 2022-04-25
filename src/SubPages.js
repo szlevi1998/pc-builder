@@ -4,19 +4,19 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
 import HomePage from './components/HomePage';
+import Guidance from './components/Guidance';
 import PreBuilds from './components/PreBuilds';
-import SavedBuildPage from './components/SavedBuilds';
 import PcBuilder from './components/PcBuilder';
+import SavedBuildPage from './components/SavedBuilds';
 import Memories from './components/builderpages/Memories';
+import Monitors from './components/builderpages/Monitors';
 import Motherboards from './components/builderpages/Motherboards';
+import PcCases from './components/builderpages/PcCases';
+import PowerSupplies from './components/builderpages/PowerSupplies';
 import Processors from './components/builderpages/Processors';
 import ProcessorCoolers from './components/builderpages/ProcessorCoolers';
 import VideoCards from './components/builderpages/VideoCards';
 import Storages from './components/builderpages/Storages';
-import PcCases from './components/builderpages/PcCases';
-import PowerSupplies from './components/builderpages/PowerSupplies';
-import Monitors from './components/builderpages/Monitors';
-import Guidance from './components/Guidance';
 
 export default class SubPages extends React.Component {
     render() {

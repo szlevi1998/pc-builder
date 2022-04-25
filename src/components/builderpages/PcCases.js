@@ -5,7 +5,7 @@ import {Button, Table} from 'react-bootstrap';
 
 function PcCasesListPage() {
     return (<div>
-            <h1 className='pccases-h1'>Válassz tárolót!</h1>
+            <h1 className='pccases-h1'>Válassz gépházat!</h1>
             <div className='pccases-filters'>
                 <section className='pccases-search'>
                     <div>
@@ -258,11 +258,11 @@ function PcCasesListPage() {
                     <th>Gyártó</th>
                     <th>Min.ár</th>
                     <th>Átlag ár</th>
+                    <th>Méret típus</th>
                     <th>Szín</th>
                     <th>Tápegység</th>
-                    <th>Súly</th>
-                    <th>Méret típus</th>
                     <th>Ventik száma</th>
+                    <th>Súly</th>
                 </tr>
                 </thead>
                 <tbody>

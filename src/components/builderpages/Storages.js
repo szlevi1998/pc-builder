@@ -223,9 +223,8 @@ function StorageListPage() {
                     <th>Min.ár</th>
                     <th>Átlag ár</th>
                     <th>Tárhely típusa</th>
-                    <th>Tárhely méret</th>
-                    <th>Tárhely foglalat</th>
                     <th>Kapacivitás</th>
+                    <th>Tárhely foglalat</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -237,11 +236,9 @@ function StorageListPage() {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
                 </tr>
 
                 <tr>
-                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>

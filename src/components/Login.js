@@ -5,27 +5,59 @@ import {Form} from 'react-bootstrap';
 import '../stylesheets/login.css';
 import {useNavigate} from 'react-router-dom';
 
+
 function LoginPage() {
-    const {register, handleSubmit, formState: {errors}} = useForm({mode: 'onChange'});
+
+
     const navigate = useNavigate();
+    const {register, handleSubmit, formState: {errors}} = useForm({mode: 'onChange'});
+
+    const onSubmit = (userObject) => handleFormSubmit(userObject);
+
+
     const navigateToRegister = () => {
         navigate('/register');
     }
+
+    function handleFormSubmit(userObject) {
+        fetch('http://localhost:8080/user/authenticate', {
+            method: 'POST',
+            body: JSON.stringify(userObject),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then(res => {
+            return res.json();
+        }).then(responseData => {
+            if (responseData) {
+                navigate('/home');
+            } else {
+                throw new Error('Hibás felhasználónév vagy jelszó!');
+            }
+        }).catch(err => {
+            if (err.constructor === TypeError) {
+                alert('A szerver nem érhető el!');
+            } else {
+                alert(err);
+            }
+        })
+    }
+
 
     return (
 
         <div className='form-container w-75 text-md-center'>
 
-            <Form>
+            <Form onSubmit={handleSubmit(onSubmit)}>
                 <h2 className='form-h1'>Bejelentkezés</h2>
 
                 <Form.Group>
                     <Form.Label className='label-lg'>Felhasználónév</Form.Label>
                     <Form.Control className='container-usercontrol'
                                   type='text'
-                                  name='userName'
+                                  name='username'
                                   placeholder='Felhasználónév'
-                                  {...register('userName', {
+                                  {...register('username', {
                                       required: true,
                                       minLength: 5,
                                       maxLength: 25

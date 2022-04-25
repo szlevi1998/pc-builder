@@ -7,24 +7,48 @@ import {useForm} from 'react-hook-form';
 function RegisterPage() {
 
     const navigation = useNavigate();
-    const backToLogin = () => {
+
+    function BackToLogin() {
         navigation('/');
     }
-    const {register, handleSubmit, getValues, formState: {errors}} = useForm({mode: 'onChange'});
 
+    function handleSubmitForm(userObject) {
+
+        fetch('http://localhost:8080/user', {
+            method: 'POST',
+            body: JSON.stringify(userObject),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then(res => {
+            if (res.status === 409) {
+                throw new Error('A felhasználónév foglalt!');
+            } else if (!res.ok) {
+                throw new Error('Hiba lépett fel a regisztráció során!');
+            }
+            alert('Sikeres regisztráció! Lépj be a fiókoddal!')
+            BackToLogin();
+        }).catch(err => {
+            alert(err);
+        })
+
+    }
+
+    const {register, handleSubmit, getValues, formState: {errors}} = useForm({mode: 'onChange'});
+    const onSubmit = (userObject) => handleSubmitForm(userObject);
     return (
 
         <div className='register-form'>
             <h2 className='register-h2'>Regisztráció</h2>
-            <Form>
+            <Form onSubmit={handleSubmit(onSubmit)}>
 
                 <Form.Group className='register-surname' controlId={'lastName'}>
                     <Form.Label>Vezetéknév</Form.Label>
                     <Form.Control className='register-controls'
                                   type='text'
-                                  name='surName'
+                                  name='lastName'
                                   placeholder='Vezetéknév'
-                                  {...register('surName',
+                                  {...register('lastName',
                                       {
                                           required: true,
                                           maxLength: 20,
@@ -43,9 +67,9 @@ function RegisterPage() {
                     <Form.Label>Keresztnév</Form.Label>
                     <Form.Control className='register-controls'
                                   type='text'
-                                  name='lastName'
+                                  name='firstName'
                                   placeholder='Keresztnév'
-                                  {...register('lastName',
+                                  {...register('firstName',
                                       {
                                           required: true,
                                           maxLength: 20,
@@ -84,9 +108,9 @@ function RegisterPage() {
                     <Form.Label>Felhasználónév</Form.Label>
                     <Form.Control className='register-controls'
                                   type='text'
-                                  name='userName'
+                                  name='username'
                                   placeholder='Felhasználónév'
-                                  {...register('userName', {
+                                  {...register('username', {
                                       required: true,
                                       minLength: 5,
                                       maxLength: 25,
@@ -145,11 +169,13 @@ function RegisterPage() {
                     {errors.passwordConfirm && errors.passwordConfirm.type === 'validate' &&
                         <span className={'register-span'}>Nem egyeznek a jelszavak</span>}
                 </Form.Group>
+                <button className='btn btn-outline-primary register-button' type='submit'>Regisztráció</button>
+                <button onClick={BackToLogin} className='btn btn-outline-primary register-button'> Vissza a
+                    bejelentkezési
+                    oldalra
+                </button>
             </Form>
-            <button className='btn btn-outline-primary register-button' type='submit'>Regisztráció</button>
-            <button onClick={backToLogin} className='btn btn-outline-primary register-button'> Vissza a bejelentkezési
-                oldalra
-            </button>
+
         </div>
     )
 }

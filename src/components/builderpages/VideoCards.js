@@ -404,10 +404,10 @@ function VideoCardListPage() {
                     <th>Gyártó</th>
                     <th>Min.ár</th>
                     <th>Átlag ár</th>
-                    <th>Memória típusa</th>
-                    <th>Memória méret</th>
                     <th>Típus</th>
                     <th>Chipset</th>
+                    <th>Memória méret</th>
+                    <th>Memória típusa</th>
                 </tr>
                 </thead>
                 <tbody>

@@ -228,9 +228,9 @@ function PowerSuppliesListPage() {
                     <th>Gyártó</th>
                     <th>Min.ár</th>
                     <th>Átlag ár</th>
-                    <th>Hatékonyság</th>
+                    <th>Típus</th>
                     <th>Teljesítmény</th>
-
+                    <th>Hatékonyság</th>
                 </tr>
                 </thead>
                 <tbody>
